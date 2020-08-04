@@ -1,0 +1,14 @@
+.slider-banner{
+    min-height: 300px;
+    background-image: url(https://wallpaperaccess.com/full/2338250.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.hero-cap h2{
+    color: #ffffff;
+    text-transform: uppercase !important;
+}
+.shop-gallery{
+    margin-top: 80px;
+    margin-bottom: 120px;
+}

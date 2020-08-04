@@ -1,0 +1,16 @@
+.slider-banner{
+    min-height: 300px;
+    background-image: url(https://www.onesuitprotection.com/sites/imdf.onesuitprotection.com/files/onesuit_about_us_banner_1920x420.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.hero-cap h2{
+    color: #ffffff;
+    text-transform: uppercase !important;
+}
+.about-details{
+    margin-top: 80px;
+}
+.shop-method-area{
+    margin-bottom: 120px;
+}

@@ -1,0 +1,24 @@
+.slider-banner{
+    min-height: 300px;
+    background-image: url(https://images3.alphacoders.com/659/thumb-1920-659401.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.hero-cap h2{
+    color: #ffffff;
+    text-transform: uppercase !important;
+}
+.shop-gallery{
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+.login_part_text{
+    background: rgba(255,140,120,1) !important;
+    background: -moz-linear-gradient(left, rgba(255,140,120,1) 0%, rgba(241,111,92,1) 51%, rgba(231,56,39,1) 100%) !important;
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,140,120,1)), color-stop(51%, rgba(241,111,92,1)), color-stop(100%, rgba(231,56,39,1))) !important;
+    background: -webkit-linear-gradient(left, rgba(255,140,120,1) 0%, rgba(241,111,92,1) 51%, rgba(231,56,39,1) 100%) !important;
+    background: -o-linear-gradient(left, rgba(255,140,120,1) 0%, rgba(241,111,92,1) 51%, rgba(231,56,39,1) 100%) !important;
+    background: -ms-linear-gradient(left, rgba(255,140,120,1) 0%, rgba(241,111,92,1) 51%, rgba(231,56,39,1) 100%) !important;
+    background: linear-gradient(to right, rgba(255,140,120,1) 0%, rgba(241,111,92,1) 51%, rgba(231,56,39,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8c78', endColorstr='#e73827', GradientType=1 );
+}

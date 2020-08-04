@@ -1,0 +1,18 @@
+pre{
+    background-color:   #333;
+}
+.pln{
+    color:  #fff !important;
+}
+.kwd{
+    color:  #ae81ff !important;
+}
+.str{
+    color:  #fd971f !important;
+}
+.lit{
+    color: #66d9ef !important;
+}
+.pun{
+    color:  #a6e22e !important;
+}

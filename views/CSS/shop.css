@@ -1,0 +1,15 @@
+.slider-banner{
+    min-height: 300px;
+    background-image: url(https://brnoregion.com/getmedia/6996d82c-0b6d-4d10-8461-7cdaacbcd829/it-guys-banner.jpg.aspx?width=1320&height=430&ext=.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.hero-cap h2{
+    color: #ffffff;
+    text-transform: uppercase !important;
+}
+.shop-gallery{
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+

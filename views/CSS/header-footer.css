@@ -1,0 +1,98 @@
+body{
+    background-color: white;
+    font-family: 'Work Sans', sans-serif !important;
+    width: 100%;
+}
+
+.header-area .main-header .menu-wrapper .main-menu ul li a{
+    text-transform: uppercase !important;
+    font-weight: normal;
+}
+.header-area .main-header .menu-wrapper .header-right span{
+    padding: 0 19px !important;
+}
+.logo img{
+    vertical-align: initial;
+}
+
+/*-------------MENU-BUTTON--------------*/
+.slicknav_btn{
+    top: -28px !important;
+    margin-top: -5px !important;
+}
+.slicknav_icon span{
+    width: 100%;
+    height: 3px;
+    display: block;
+    background-color: #333333 !important;
+    border-radius: 2px;
+}
+.slicknav_icon span:nth-child(1){
+    transform: rotate(0deg);
+    transition: all .5s;
+}
+.slicknav_icon span:nth-child(2){
+    transition: all .5s;
+}
+.slicknav_icon span:nth-child(3){
+    transform: rotate(0deg);
+    transition: all .5s;
+}
+.slicknav_open .slicknav_icon span:nth-child(1){
+    width: 100%;
+    -webkit-transform: rotate(45deg) translate(4px,5px);
+    transform: rotate(45deg) translate(4px,5px);
+    transition: all .5s;
+}
+.slicknav_open .slicknav_icon span:nth-child(2){
+    opacity: 0;
+    transition: all .5s;
+}
+.slicknav_open .slicknav_icon span:nth-child(3){
+    width: 100%;
+    -webkit-transform: rotate(-45deg) translate(5px,-6px);
+    transform: rotate(-45deg) translate(5px,-6px);
+    transition: all .5s;
+}
+/*-------------/MENU-BUTTON--------------*/
+
+/*-------------CART-BUTTON--------------*/
+.cart-button{
+    width: 100%;
+    padding: 20px 0;
+    background-color: #f81f1f !important;
+    border: none !important;
+}
+/*-------------/CART-BUTTON--------------*/
+
+/*-------------FOOTER--------------*/
+footer{
+    background-color: rgba(0,0,0,0.9);
+}
+footer .row>div{
+    height: auto;
+    border: none;
+}
+footer a{
+    color: rgba(0,0,0,0.5);
+}
+footer .nav-link:hover{
+    color: rgba(0,0,0,0.7);
+}
+copyright{
+    color: #fff;
+}
+/*-------------/FOOTER--------------*/
+
+/*-------------RESPONSIVE--------------*/
+@media screen and (max-width: 424px){
+    #navbar-brand-cont h5{
+        display: none;
+    }
+}
+@media screen and (max-width: 992px){
+    main{
+        padding-top: 50px;
+    }
+}
+/*-------------/RESPONSIVE--------------*/

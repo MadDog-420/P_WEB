@@ -1,0 +1,65 @@
+.section_padding{
+    padding: 7% 0 !important;
+}
+.slider-banner{
+    min-height: 300px;
+    background-image: url(../IMG/about_hero.png);
+    background-position: center;
+    background-size: cover;
+}
+.popular-items{
+    width: 100%;
+}
+.single-popular-items{
+    width: 256px !important;
+    height: 256px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.popular-img{
+    position: absolute !important;
+    border-radius: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.avatar{
+    width: 256px !important;
+    height: 256px !important;
+    object-fit: cover;
+}
+.inputfile{
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+    width: 100%; 
+    padding: 20px 0;
+    color: #ffffff;
+    text-align: center;
+    background-color: #f81f1f !important; 
+    border: none !important;
+    display: inline-block;
+    cursor: pointer;
+}
+#personalInfo span{
+    cursor: pointer;
+}
+#personalInfo input{
+    border: 0;
+}
+#personalInfo textarea{
+    border: 0;
+}
+#personalInfo .enable .columns>input{
+    border: 1px solid #2577fd;
+}
+#personalInfo .enable .columns>textarea{
+    border: 1px solid #2577fd;
+}
+#editD{
+    margin-bottom: 30px;
+}
